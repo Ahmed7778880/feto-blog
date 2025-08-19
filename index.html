@@ -3,26 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ahmed Ayman | Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Fira+Code&display=swap" rel="stylesheet">
+  <title>Ahmed’s Portfolio & Blog</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="blog.html">Blog</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
 
-  <main>
-    <section class="hero">
-      <h1>Hi, I'm Ahmed 👋</h1>
-      <p>Cybersecurity enthusiast | Pentester | CTF Player</p>
-    </section>
-  </main>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">Ahmed’s Blog</div>
+    <div>
+      <!-- Change or add links here -->
+      <a href="#">Home</a>
+      <a href="#blog">Blog</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section (Intro) -->
+  <section class="hero">
+    <h1>Hey, I’m Ahmed 👋</h1>
+    <p>Welcome to my corner of the internet. I share write-ups, cybersecurity thoughts, and my personal projects here.</p>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="section">
+    <h2>Latest Blog Posts</h2>
+    <div class="cards">
+      <!-- Blog Post Card #1 -->
+      <div class="card">
+        <h3>CTF Challenge Write-up</h3>
+        <p>Step-by-step breakdown of how I solved a recent Capture The Flag challenge.</p>
+        <a href="#">Read More →</a>
+      </div>
+      <!-- Blog Post Card #2 -->
+      <div class="card">
+        <h3>Web Exploits 101</h3>
+        <p>A beginner-friendly explanation of SQLi, XSS, and authentication bypass.</p>
+        <a href="#">Read More →</a>
+      </div>
+      <!-- Blog Post Card #3 -->
+      <div class="card">
+        <h3>My Forensics Journey</h3>
+        <p>How I got started with digital forensics and useful tools for beginners.</p>
+        <a href="#">Read More →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section">
+    <h2>My Projects</h2>
+    <!-- Portfolio Project #1 -->
+    <div class="portfolio-item">
+      <h3>🔍 Digital Forensics Toolkit</h3>
+      <p>A collection of scripts and tools I built for analyzing memory dumps.</p>
+    </div>
+    <!-- Portfolio Project #2 -->
+    <div class="portfolio-item">
+      <h3>🛡️ Penetration Testing Lab</h3>
+      <p>A homelab environment where I practice web app security and exploit development.</p>
+    </div>
+    <!-- Portfolio Project #3 -->
+    <div class="portfolio-item">
+      <h3>🌐 Personal Blog</h3>
+      <p>This website! Designed and built with HTML, CSS, and JS, hosted on GitHub Pages.</p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2025 Ahmed | Built with ❤️ and curiosity</p>
+    <p>
+      <!-- Replace with your real links -->
+      <a href="#">GitHub</a> | 
+      <a href="#">LinkedIn</a> | 
+      <a href="#">Twitter</a>
+    </p>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>
